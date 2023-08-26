@@ -1,0 +1,128 @@
+.detail-item {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 150px;
+}
+
+.detail-item .item-name {
+    color: #152c5b;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.detail-item .item-location {
+    color: #b0b0b0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 32px;
+}
+
+.detail-item .item-features .num {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 170%; /* 27.2px */
+    color: #152c5b;
+    font-weight: 500;
+}
+
+.detail-item .item-features .feature {
+    color: #b0b0b0;
+    font-weight: 300;
+}
+
+.detail-item .treasure-name {
+    color: #152c5b;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail-item .treasure-category {
+    color: #b0b0b0;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.detail-item .title {
+    color: #152c5b;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 14px;
+}
+
+.detail-item .sub-title {
+    color: #152c5b;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 27.2px */
+}
+
+.detail-item .description {
+    color: #b0b0b0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%;
+    padding-bottom: 6px;
+}
+
+.start-booking {
+    width: 487px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #e5e5e5;
+}
+
+.start-booking .basic-pc-hg {
+    color: #1abc9c;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.start-booking .basic-pc {
+    color: #b0b0b0;
+    font-weight: 275;
+}
+
+.start-booking .disc-text {
+    color: #b0b0b0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 27.2px */
+}
+
+.start-booking .disc-text-hg {
+    color: #152c5b;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 170%;
+}
