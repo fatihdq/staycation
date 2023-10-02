@@ -19,12 +19,14 @@ export default function StartBooking() {
                     You will pay <span className="disc-text-hg">$480</span> per{" "}
                     <span className="disc-text-hg">2 night</span>
                 </div>
-                <Button
-                    title="Continue to book"
-                    className=""
-                    isFull
-                    isPrimary
-                />
+                <a href="/booking">
+                    <Button
+                        title="Continue to book"
+                        className=""
+                        isFull
+                        isPrimary
+                    />
+                </a>
             </div>
         </div>
     );

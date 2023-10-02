@@ -1,149 +1,149 @@
 {
-    "id": 1,
-    "name": "Village Angga",
-    "type": "Villa",
-    "city": "Bogor",
-    "province": "Jawa Barat",
-    "country": "Indonesia",
-    "description": "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell. /nSuch trends saw the demise of the soul-infused techno that typified the original Detroit sound. Robert Hood has noted that he and Daniel Bell both realized something was missing from techno in the post-rave era. /nDesign is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The national agency for design: enabling Singapore to use design for economic growth and to make lives better.",
-    "price": "280",
-    "Promotion": [
-        {
-            "id": 1,
-            "description": "You will pay $480 USD per 2 nights",
-            "discount": 80
-        }
-    ],
-    "listBooked": [
-        {
-            "bookDate": "2023-08-23"
-        },
-        {
-            "bookDate": "2023-08-24"
-        }
-    ],
-    "mainImage": {
-        "id": 1,
-        "name": "featured 1",
-        "imageUrl": "/images/img-featured-1.jpg"
-    },
-    "images": [
-        {
-            "id": 2,
-            "name": "featured 2",
-            "imageUrl": "/images/img-featured-2.jpg"
-        },
-        {
-            "id": 3,
-            "name": "featured 3",
-            "imageUrl": "/images/img-featured-3.jpg"
-        }
-    ],
-    "features": [
-        {
-            "id": 1,
-            "name": "Bedroom",
-            "description": "Bedroom",
-            "amount": 5,
-            "iconName": "icon-bedroom.svg",
-            "imageUrl": "/images/icon-bedroom.svg"
-        },
-        {
-            "id": 2,
-            "name": "Living Room",
-            "description": "Living Room",
-            "amount": 1,
-            "iconName": "icon-livingroom.svg",
-            "imageUrl": "/images/icon-livingroom.svg"
-        },
-        {
-            "id": 3,
-            "name": "Bathroom",
-            "description": "Bathroom",
-            "amount": 3,
-            "iconName": "icon-bathroom.svg",
-            "imageUrl": "/images/icon-bathroom.svg"
-        },
-        {
-            "id": 4,
-            "name": "Dining Room",
-            "description": "Dining Room",
-            "amount": 1,
-            "iconName": "icon-diningroom.svg",
-            "imageUrl": "/images/icon-diningroom.svg"
-        },
-        {
-            "id": 5,
-            "name": "Wifi",
-            "description": "mbp/s",
-            "amount": 10,
-            "iconName": "icon-wifi.svg",
-            "imageUrl": "/images/icon-wifi.svg"
-        },
-        {
-            "id": 6,
-            "name": "Air Conditioner",
-            "description": "Unit Ready",
-            "amount": 7,
-            "iconName": "icon-airconditioner.svg",
-            "imageUrl": "/images/icon-airconditioner.svg"
-        },
-        {
-            "id": 7,
-            "name": "Refigrator",
-            "description": "Refigrator",
-            "amount": 2,
-            "iconName": "icon-refigrator.svg",
-            "imageUrl": "/images/icon-refigrator.svg"
-        },
-        {
-            "id": 8,
-            "name": "Television",
-            "description": "Television",
-            "amount": 4,
-            "iconName": "icon-tv.svg",
-            "imageUrl": "/images/icon-tv.svg"
-        }
-    ],
-    "treasures": [
-        {
-            "id": 1,
-            "name": "Green Lake",
-            "category": "Nature",
-            "description": "",
-            "isPopular": false,
-            "imageUrl": "/images/treasure-1.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Dog Clubs",
-            "category": "Pool",
-            "description": "",
-            "isPopular": false,
-            "imageUrl": "/images/treasure-2.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Labour and Wait",
-            "category": "Shopping",
-            "description": "",
-            "isPopular": true,
-            "imageUrl": "/images/treasure-3.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Snorkeling",
-            "category": "Beach",
-            "description": "",
-            "isPopular": false,
-            "imageUrl": "/images/treasure-4.jpg"
-        }
-    ],
-    "testimony": {
-        "name": "Anggi",
-        "job": "Product Designer",
-        "description": "As a wife I can pick a great trip with my own lovely family ... thank you!",
-        "rate": 5,
-        "imageUrl": "/images/testimonial-1.jpg"
+  "id": 1,
+  "name": "Village Angga",
+  "type": "Villa",
+  "regency": "Bogor",
+  "province": "Jawa Barat",
+  "country": "Indonesia",
+  "description": "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell. /nSuch trends saw the demise of the soul-infused techno that typified the original Detroit sound. Robert Hood has noted that he and Daniel Bell both realized something was missing from techno in the post-rave era. /nDesign is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The national agency for design: enabling Singapore to use design for economic growth and to make lives better.",
+  "price": "280",
+  "Promotion": [
+    {
+      "id": 1,
+      "description": "You will pay $480 USD per 2 nights",
+      "discount": 80
     }
+  ],
+  "listBooked": [
+    {
+      "bookDate": "2023-08-23"
+    },
+    {
+      "bookDate": "2023-08-24"
+    }
+  ],
+  "mainImage": {
+    "id": 1,
+    "name": "featured 1",
+    "imageUrl": "/images/img-featured-1.jpg"
+  },
+  "images": [
+    {
+      "id": 2,
+      "name": "featured 2",
+      "imageUrl": "/images/img-featured-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "featured 3",
+      "imageUrl": "/images/img-featured-3.jpg"
+    }
+  ],
+  "features": [
+    {
+      "id": 1,
+      "name": "Bedroom",
+      "description": "Bedroom",
+      "amount": 5,
+      "iconName": "icon-bedroom.svg",
+      "imageUrl": "/images/icon-bedroom.svg"
+    },
+    {
+      "id": 2,
+      "name": "Living Room",
+      "description": "Living Room",
+      "amount": 1,
+      "iconName": "icon-livingroom.svg",
+      "imageUrl": "/images/icon-livingroom.svg"
+    },
+    {
+      "id": 3,
+      "name": "Bathroom",
+      "description": "Bathroom",
+      "amount": 3,
+      "iconName": "icon-bathroom.svg",
+      "imageUrl": "/images/icon-bathroom.svg"
+    },
+    {
+      "id": 4,
+      "name": "Dining Room",
+      "description": "Dining Room",
+      "amount": 1,
+      "iconName": "icon-diningroom.svg",
+      "imageUrl": "/images/icon-diningroom.svg"
+    },
+    {
+      "id": 5,
+      "name": "Wifi",
+      "description": "mbp/s",
+      "amount": 10,
+      "iconName": "icon-wifi.svg",
+      "imageUrl": "/images/icon-wifi.svg"
+    },
+    {
+      "id": 6,
+      "name": "Air Conditioner",
+      "description": "Unit Ready",
+      "amount": 7,
+      "iconName": "icon-airconditioner.svg",
+      "imageUrl": "/images/icon-airconditioner.svg"
+    },
+    {
+      "id": 7,
+      "name": "Refigrator",
+      "description": "Refigrator",
+      "amount": 2,
+      "iconName": "icon-refigrator.svg",
+      "imageUrl": "/images/icon-refigrator.svg"
+    },
+    {
+      "id": 8,
+      "name": "Television",
+      "description": "Television",
+      "amount": 4,
+      "iconName": "icon-tv.svg",
+      "imageUrl": "/images/icon-tv.svg"
+    }
+  ],
+  "treasures": [
+    {
+      "id": 1,
+      "name": "Green Lake",
+      "category": "Nature",
+      "description": "",
+      "isPopular": false,
+      "imageUrl": "/images/treasure-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dog Clubs",
+      "category": "Pool",
+      "description": "",
+      "isPopular": false,
+      "imageUrl": "/images/treasure-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Labour and Wait",
+      "category": "Shopping",
+      "description": "",
+      "isPopular": true,
+      "imageUrl": "/images/treasure-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Snorkeling",
+      "category": "Beach",
+      "description": "",
+      "isPopular": false,
+      "imageUrl": "/images/treasure-4.jpg"
+    }
+  ],
+  "testimony": {
+    "name": "Anggi",
+    "job": "Product Designer",
+    "description": "As a wife I can pick a great trip with my own lovely family ... thank you!",
+    "rate": 5,
+    "imageUrl": "/images/testimonial-1.jpg"
+  }
 }

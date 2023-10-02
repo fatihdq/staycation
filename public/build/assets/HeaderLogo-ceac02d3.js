@@ -1,0 +1,1 @@
+import{j as e}from"./app-bc86cf8c.js";function a(){return e.jsx("div",{className:"border-b-2 py-5",children:e.jsx("div",{className:"content-header",children:e.jsx("div",{className:"label text-center",children:e.jsxs("a",{href:"/",children:["Stay",e.jsx("span",{className:"staycation",children:"cation"})]})})})})}export{a as H};

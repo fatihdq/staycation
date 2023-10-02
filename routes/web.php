@@ -5,6 +5,15 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+
+use App\Http\Controllers\SuperAdmin\DashboardController;
+use App\Http\Controllers\SuperAdmin\LodgeController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\RegionController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,31 +25,86 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function(){
-    return Inertia::render('HomePage');
-});
+Route::get('/', [HomeController::class,'index'])->name('home');
 
-Route::get('/detail-page', function(){
+Route::get('detail-page', function(){
     return Inertia::render('DetailPage');
 });
 
-// Route::get('/', function () {
-//     return Inertia::render('Welcome', [
-//         'canLogin' => Route::has('login'),
-//         'canRegister' => Route::has('register'),
-//         'laravelVersion' => Application::VERSION,
-//         'phpVersion' => PHP_VERSION,
-//     ]);
-// });
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+Route::group(['middleware' =>['guest']], function (){
+    Route::get('login',[LoginController::class, 'index'])->name('login.index');
+    Route::post('login/postLogin',[LoginController::class, 'login'])->name('login.post');
+
+    Route::get('register',[RegisterController::class, 'index'])->name('register.index');
+    Route::post('register/store',[RegisterController::class, 'store'])->name('register.post');
+
 });
 
-require __DIR__.'/auth.php';
+Route::group(['middleware' => ['auth']], function(){
+    Route::get('logout',[LoginController::class, 'logout'])->name('logout');
+
+    Route::get('booking',function(){
+    return Inertia::render('BookingPage');
+    });
+
+    Route::get('payment',function(){
+        return Inertia::render('BookingPaymentPage');
+    });
+
+    Route::get('complete',function(){
+        return Inertia::render('BookingCompletePage');
+    });
+
+    Route::get('toUserProfile',[LoginController::class,'toUserProfile'])->name('to.user.profile');
+});
+
+Route::group(['middleware' => ['auth','super.admin']], function(){
+    Route::get('staycation/dashboard',[DashboardController::class, 'index'])->name("spradm.dashboard.index");
+
+    Route::get('staycation/lodge',[LodgeController::class, 'index'])->name('spradm.lodge.index');
+    Route::get('staycation/lodge/create',[LodgeController::class,'create'])->name('spradm.lodge.create');
+    Route::get('staycation/lodge/{id}/edit',[LodgeController::class,'edit'])->name('spradm.lodge.edit');
+
+    Route::post('staycation/lodge/store',[LodgeController::class,'store'])->name('spradm.lodge.store');
+    Route::put('staycation/lodge/{id}/update',[LodgeController::class, 'update'])->name('spradm.lodge.update');
+    Route::put('staycation/lodge/{id}/deactive',[LodgeController::class, 'deactive'])->name('spradm.lodge.deactive');
+    Route::delete('staycation/lodge/{id}/destroy',[LodgeController::class, 'destroy'])->name('spradm.lodge.destroy');
+
+
+
+});
+
+Route::get('admin',function(){
+    return Inertia::render('Admin/Dashboard')->name('admin.dashboard');
+});
+
+Route::get('/getProvinces',[RegionController::class,'getParent']);
+Route::get('/getRegencies',[RegionController::class,'getChild']);
+Route::get('/getDistricts',[RegionController::class,'getChild']);
+Route::get('/getVillages',[RegionController::class,'getChild']);
+
+Route::get('storage/{filename}', function ($filename)
+{
+    $path = storage_path('public/' . $filename);
+
+    if (!File::exists($path)) {
+        abort(404);
+    }
+
+    $file = File::get($path);
+    $type = File::mimeType($path);
+
+    $response = Response::make($file, 200);
+    $response->header("Content-Type", $type);
+
+    return $response;
+});
+
+
+
+
+
+
+

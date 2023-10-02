@@ -7,23 +7,25 @@ import Footer from "@/Parts/Footer";
 
 import data from "../data-item.json";
 
+import React from "react";
+
 export default function HomePage() {
-    return (
-        <>
-            <div className="c-container">
-                <Hero />
-                <MainItem />
-                <Item />
-                <Testimony
-                    name={data["testimony"]["name"]}
-                    job={data["testimony"]["job"]}
-                    desc={data["testimony"]["description"]}
-                    rate={data["testimony"]["rate"]}
-                    imageUrl={data["testimony"]["imageUrl"]}
-                />
-            </div>
-            <Footer />
-            <Header />
-        </>
-    );
+  return (
+    <>
+      <div className="c-container">
+        <Hero />
+        <MainItem />
+        <Item />
+        <Testimony
+          name={data["testimony"]["name"]}
+          job={data["testimony"]["job"]}
+          desc={data["testimony"]["description"]}
+          rate={data["testimony"]["rate"]}
+          imageUrl={data["testimony"]["imageUrl"]}
+        />
+      </div>
+      <Header />
+      <Footer />
+    </>
+  );
 }

@@ -1,125 +1,125 @@
 {
-    "testimony": {
-        "name": "Anggi",
-        "job": "Product Designer",
-        "description": "As a wife I can pick a great trip with my own lovely family ... thank you!",
-        "rate": 5,
-        "imageUrl": "/images/testimonial-1.jpg"
-    },
-    "items": [
+  "testimony": {
+    "name": "Anggi",
+    "job": "Product Designer",
+    "description": "As a wife I can pick a great trip with my own lovely family ... thank you!",
+    "rate": 5,
+    "imageUrl": "/images/testimonial-1.jpg"
+  },
+  "items": [
+    {
+      "key": 1,
+      "section": "Houses with beauty backyard",
+      "items": [
         {
-            "key": 1,
-            "section": "Houses with beauty backyard",
-            "items": [
-                {
-                    "name": "Tabby Town",
-                    "city": "Gunung Batu",
-                    "country": "Indonesia",
-                    "isPopular": true,
-                    "imageName": "image-category-1",
-                    "imagePath": "/images/image-category-1.jpg"
-                },
-                {
-                    "name": "Anggana",
-                    "city": "Bogor",
-                    "country": "Indonesia",
-                    "isPopular": false,
-                    "imageName": "image-category-2",
-                    "imagePath": "/images/image-category-2.jpg"
-                },
-                {
-                    "name": "Seattle Rain",
-                    "city": "Jakarta",
-                    "country": "Indonesia",
-                    "isPopular": false,
-                    "imageName": "image-category-3",
-                    "imagePath": "/images/image-category-3.jpg"
-                },
-                {
-                    "name": "Wodden Pit",
-                    "city": "Wonosobo",
-                    "country": "Indonesia",
-                    "isPopular": false,
-                    "imageName": "image-category-4",
-                    "imagePath": "/images/image-category-4.jpg"
-                }
-            ]
+          "name": "Tabby Town",
+          "regency": "Gunung Batu",
+          "country": "Indonesia",
+          "isPopular": true,
+          "imageName": "image-category-1",
+          "imagePath": "/images/image-category-1.jpg"
         },
         {
-            "key": 2,
-            "section": "Hotels with large living room",
-            "items": [
-                {
-                    "name": "Green Park",
-                    "city": "Tangerang",
-                    "country": "Indonesia",
-                    "isPopular": false,
-                    "imageName": "image-category-5",
-                    "imagePath": "/images/image-category-5.jpg"
-                },
-                {
-                    "name": "Podo Wae",
-                    "city": "Madiun",
-                    "country": "Indonesia",
-                    "isPopular": false,
-                    "imageName": "image-category-6",
-                    "imagePath": "/images/image-category-6.jpg"
-                },
-                {
-                    "name": "Silver Rain",
-                    "city": "Bandung",
-                    "country": "Indonesia",
-                    "isPopular": false,
-                    "imageName": "image-category-7",
-                    "imagePath": "/images/image-category-7.jpg"
-                },
-                {
-                    "name": "Cashville",
-                    "city": "Kemang",
-                    "country": "Indonesia",
-                    "isPopular": true,
-                    "imageName": "image-category-8",
-                    "imagePath": "/images/image-category-8.jpg"
-                }
-            ]
+          "name": "Anggana",
+          "regency": "Bogor",
+          "country": "Indonesia",
+          "isPopular": false,
+          "imageName": "image-category-2",
+          "imagePath": "/images/image-category-2.jpg"
         },
         {
-            "key": 3,
-            "section": "Apartments with kitchen set",
-            "items": [
-                {
-                    "name": "PS Wood",
-                    "city": "Depok",
-                    "country": "Indonesia",
-                    "isPopular": false,
-                    "imageName": "image-category-9",
-                    "imagePath": "/images/image-category-9.jpg"
-                },
-                {
-                    "name": "One Five",
-                    "city": "Jakarta",
-                    "country": "Indonesia",
-                    "isPopular": false,
-                    "imageName": "image-category-10",
-                    "imagePath": "/images/image-category-10.jpg"
-                },
-                {
-                    "name": "Minimal",
-                    "city": "Bogor",
-                    "country": "Indonesia",
-                    "isPopular": false,
-                    "imageName": "image-category-11",
-                    "imagePath": "/images/image-category-11.jpg"
-                },
-                {
-                    "name": "Stays Home",
-                    "city": "Wonosobo",
-                    "country": "Indonesia",
-                    "isPopular": true,
-                    "imageName": "image-category-12",
-                    "imagePath": "/images/image-category-12.jpg"
-                }
-            ]
+          "name": "Seattle Rain",
+          "regency": "Jakarta",
+          "country": "Indonesia",
+          "isPopular": false,
+          "imageName": "image-category-3",
+          "imagePath": "/images/image-category-3.jpg"
+        },
+        {
+          "name": "Wodden Pit",
+          "regency": "Wonosobo",
+          "country": "Indonesia",
+          "isPopular": false,
+          "imageName": "image-category-4",
+          "imagePath": "/images/image-category-4.jpg"
         }
-    ]
+      ]
+    },
+    {
+      "key": 2,
+      "section": "Hotels with large living room",
+      "items": [
+        {
+          "name": "Green Park",
+          "regency": "Tangerang",
+          "country": "Indonesia",
+          "isPopular": false,
+          "imageName": "image-category-5",
+          "imagePath": "/images/image-category-5.jpg"
+        },
+        {
+          "name": "Podo Wae",
+          "regency": "Madiun",
+          "country": "Indonesia",
+          "isPopular": false,
+          "imageName": "image-category-6",
+          "imagePath": "/images/image-category-6.jpg"
+        },
+        {
+          "name": "Silver Rain",
+          "regency": "Bandung",
+          "country": "Indonesia",
+          "isPopular": false,
+          "imageName": "image-category-7",
+          "imagePath": "/images/image-category-7.jpg"
+        },
+        {
+          "name": "Cashville",
+          "regency": "Kemang",
+          "country": "Indonesia",
+          "isPopular": true,
+          "imageName": "image-category-8",
+          "imagePath": "/images/image-category-8.jpg"
+        }
+      ]
+    },
+    {
+      "key": 3,
+      "section": "Apartments with kitchen set",
+      "items": [
+        {
+          "name": "PS Wood",
+          "regency": "Depok",
+          "country": "Indonesia",
+          "isPopular": false,
+          "imageName": "image-category-9",
+          "imagePath": "/images/image-category-9.jpg"
+        },
+        {
+          "name": "One Five",
+          "regency": "Jakarta",
+          "country": "Indonesia",
+          "isPopular": false,
+          "imageName": "image-category-10",
+          "imagePath": "/images/image-category-10.jpg"
+        },
+        {
+          "name": "Minimal",
+          "regency": "Bogor",
+          "country": "Indonesia",
+          "isPopular": false,
+          "imageName": "image-category-11",
+          "imagePath": "/images/image-category-11.jpg"
+        },
+        {
+          "name": "Stays Home",
+          "regency": "Wonosobo",
+          "country": "Indonesia",
+          "isPopular": true,
+          "imageName": "image-category-12",
+          "imagePath": "/images/image-category-12.jpg"
+        }
+      ]
+    }
+  ]
 }
